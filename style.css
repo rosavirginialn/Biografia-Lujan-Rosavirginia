@@ -1,0 +1,41 @@
+/*Fondo*/
+body {
+    font-family: 'Fredoka', sans-serif;
+    background-image: url('img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cuadro-principal {
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.8); 
+    padding: 50px; 
+    margin-top: 50px;
+    border-radius: 40px;
+    max-width: 80%; 
+}
+
+/*Texto*/
+h1 {
+    color:#000000;
+    font-size: 40px;
+}
+h2 {
+    color:#000000;
+    font-size: 30px;
+}
+
+.nombre {
+    color:#ed4e9e;
+}
+p {
+    color:#000000;
+    font-size: 20px;
+}
