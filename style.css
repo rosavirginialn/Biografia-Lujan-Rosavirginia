@@ -106,10 +106,20 @@ p { color: #000000; font-size: 22px; margin-bottom: 30px; }
 }
 
 .fondo-reconocimiento { background-image: url('img/fondo_reconocimiento.jpg'); }
-.fondo-origen { background-image: url('/img/fondo_origen.jpg'); }
+.fondo-origen { background-image: url('img/fondo_origen.jpg'); }
 .fondo-formacion { background-image: url('img/fondo_formacion.jpg'); }
 .fondo-logros { background-image: url('img/fondo_logros.jpg');}
 .fondo-actualidad {background-image: url('img/fondo_actualidad.jpg');}
+
+.btn-home {
+    background-color: #3498db !important;
+    color: #fff !important;
+}
+
+.btn-home:hover {
+    background-color: #2980b9 !important;
+    color: #fff !important;
+}
 
 /* Inicio*/
 body.inicio {
@@ -138,6 +148,13 @@ body.fondo-reconocimiento {
     margin: 40px 20px;
     box-shadow: 0 15px 35px rgba(0,0,0,0.2);
     text-align: left;
+}
+
+.contenido-texto p {
+    color: #000;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
 }
 
 .titulo-mision {
