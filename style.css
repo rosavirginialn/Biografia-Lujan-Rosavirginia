@@ -110,6 +110,7 @@ p { color: #000000; font-size: 22px; margin-bottom: 30px; }
 .fondo-formacion { background-image: url('img/fondo_formacion.jpg'); }
 .fondo-logros { background-image: url('img/fondo_logros.jpg');}
 .fondo-actualidad {background-image: url('img/fondo_actualidad.jpg');}
+.fondo-contacto { background-image: url('img/fondo_contacto.jpg'); }
 
 .btn-home {
     background-color: #3498db !important;
@@ -205,3 +206,23 @@ body.fondo-reconocimiento {
     background-color: #FFFF00;
     color: #000 !important;
 }
+
+.btn-instagram {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%) !important;
+    color: white !important;
+    width: 250px !important;
+    border: none;
+}
+
+.btn-instagram:hover {
+    transform: scale(1.1) !important;
+    box-shadow: 0 8px 15px rgba(204, 35, 102, 0.4) !important;
+}
+
+.link-correo {
+    color: #ed4e9e;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
