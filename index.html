@@ -8,13 +8,23 @@
 
 </head>
 <body>
-    <div class="cuadro-principal">
-        <h1>¡Bienvenidos a mi Jardín!</h1>
-        <h2>¡Hola! Soy <span class="nombre">Rosavirginia Luján</span></h2>
-        <p>¡Desde mi súper base secreta en San Francisco, Venezuela. Lista para la aventura!</p>
+    <div class="franja-blanca">
+        <h1>¡Bienvenidos a mi Base Secreta!</h1>
+    </div>
+    <div class="franja-blanca">
+        <h2><span class="nombre">Rosavirginia Luján</span> | Reimaginando el Futuro desde San Francisco, Venezuela.</h2>
+        <p class="sub-info">¡Lista para la aventura!</p>
+    </div>
+
+    <div class="contenedor-exploradores">
+        <img src="img/exploradores.png" alt="Exploradores" class="img-exploradores">
+    </div>
+    <div class="franja-blanca">
+        <h2 class="titulo-mision-selecion">Elige la misión:</h2>
+    </div>
 
         <!-- Misiones -->
-        <div class="contenedor-misiones">
+        <div class="contenedor-misiones grid-simetrico">
             <div class="mision-item">
                 <div class="personaje-wrapper"><img src="img/exploradora.png" alt="¿Quién es la exploradora?"></div>
                 <a href="misiones/reconocimiento.html">
@@ -53,14 +63,9 @@
 
         <!-- Contacto -->
         <div class="contenedor-contacto">
-            <div class="mision-item">
-                <div class="personaje-wrapper"><img src="img/austin.png" alt="Contactos"></div>
                 <a href="misiones/contactos.html">
-                    <button class="btn-mision">Contactos</button>
+                    <button class="btn-mision btn-contacto-solo">Contactos</button>
                 </a>
             </div>
-        </div>
-    </div>
-
-</body>
+    </body>
 </html>
